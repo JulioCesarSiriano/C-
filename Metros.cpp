@@ -6,12 +6,12 @@ using namespace std;
 
 int main (){
 	
-	setlocale(LC_ALL, "Portuguese");
+	setlocale(LC_ALL, "pt_BR.UTF-8");
 	
 	double metros, centimetro;
 	
 	
-	cout << "Digite quantos metros você deseja converter: \n";
+	cout << "Digite quantos metros vocÃª deseja converter: \n";
 	cin >> metros;
 	
 	centimetro = metros * 100;
